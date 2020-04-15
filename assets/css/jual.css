@@ -1,0 +1,231 @@
+/* Jual Page */
+
+/* Navbar */
+
+#body-jual nav {
+  position: relative;
+  width: auto;
+}
+
+#nav-btn {
+  color: #000 !important;
+}
+
+.nav-disactive {
+  color: #000 !important;
+}
+
+/* Content */
+
+.jual-content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 0 5% 4em;
+}
+
+.jual-content-step img {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.jual-content-step, .jual-content-form {
+  padding: 2em;
+}
+
+.jual-content-step .step {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.5em;
+}
+
+.step div {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+}
+
+/* Active */
+
+.active1 {
+  background-image: url("../img/jual/icon/location.png");
+}
+
+.active2 {
+  background-image: url("../img/jual/icon/account.png");
+}
+
+.active3 {
+  background-image: url("../img/jual/icon/apply.png");
+}
+
+.active4 {
+  background-image: url("../img/jual/icon/score.png");
+}
+
+/* Disable */
+
+.disable1 {
+  background-image: url("../img/jual/icon/location-disable.png");
+}
+
+.disable2 {
+  background-image: url("../img/jual/icon/account-disable.png");
+}
+
+.disable3 {
+  background-image: url("../img/jual/icon/apply-disable.png");
+}
+
+.disable4 {
+  background-image: url("../img/jual/icon/score-disable.png");
+}
+
+.step .active {
+  width: 3.5em;
+  height: 3.5em;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid #94BC2F;
+  margin-left: 35%
+}
+
+.step .disable {
+  width: 3.5em;
+  height: 3.5em;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid#E0E0E0;
+  margin-left: 35%;
+}
+
+.jual-content-form .alert {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  width: auto;
+  height: auto;
+  padding: 1.5em 2em;
+  background: rgb(201, 236, 113);
+}
+
+.jual-content-form .alert img {
+  width: 2.5em;
+}
+
+.jual-content-form .alert p {
+  text-align: justify;
+  margin: 0;
+}
+
+.jual-content-form .form {
+  margin: 1em 0;
+  text-align: left;
+}
+
+.jual-content-form .form label {
+  color: #000;
+}
+
+.jual-content-form .form select, .jual-content-form .form textarea, .jual-content-form .form input, .jual-content-form .form a {
+  width: 100%;
+  margin: 0.5em 0 2em;
+  padding: 0.5em 2%;
+  background: #e7e7e7;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.jual-content-form .form select, .jual-content-form .form input {
+  height: auto;
+}
+
+.jual-content-form .form textarea {
+  width: 96%;
+  height: 5em;
+  cursor: inherit;
+}
+
+.form .date {
+  width: 96% !important;
+}
+
+.form-btn {
+  background: linear-gradient(to right, #01AC68, #007F78) !important;
+  padding: 0.8em 1em !important;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.form-btn:hover {
+  background: transparent !important;
+  border: 1px solid #009C24 !important;
+  color: #009C24;
+}
+
+.jual-profile {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 3em;
+}
+
+.jual-profile img {
+  width: 80%;
+  margin: 0 10%;
+  border-radius: 50%;
+}
+
+.data-profile {
+  text-align: left;
+}
+
+.data-profile h1, .score-sheet h1 {
+  margin: 0;
+}
+
+.data-profile .score {
+  width: auto;
+  height: 1.8em;
+  margin: 0.5em 0;
+  background: url("../img/jual/icon/star.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.jual-button {
+  margin: 1em 0 3em;
+  text-align: left;
+}
+
+.location {
+  margin: 3em 0 1.5em;
+  text-align: left;
+}
+
+.location img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2);
+}
+
+.score-sheet {
+  margin: 3em 0 0;
+}
+
+.score-sheet .agent {
+  width: 30%;
+  margin: 0 10% 1em;
+  border-radius: 50%;
+}
+
+.score-sheet .score {
+  width: auto;
+  height: 1.8em;
+  margin: 1em 0;
+}
+
+.jual-content-form .jual-button {
+  text-align: center !important;
+}

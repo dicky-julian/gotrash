@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GoTrash | Media Peduli Sampah</title>
+  <link rel="shortcut icon" href="../../assets/img/general/icon.png" type="image/x-icon">
+  <!-- css -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/jual.css">
+  <link rel="stylesheet" href="../../assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- js -->
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script src=".././assets/js/script.js"></script>
+</head>
+
+<body id="body-jual">
+  <!-- Navbar -->
+  <nav id="nav">
+    <img src="../../assets/img/general/logo.png">
+    <i id="nav-btn" class="fa fa-bars"></i>
+    <div class="nav-link">
+      <a class="nav-disactive" href="../index.html" id="nav-1">Beranda</a>
+      <br>
+      <a class="active">Jual Sampah</a>
+      <br>
+      <a class="nav-disactive" href="../artikel.html" id="nav-2">Artikel</a>
+      <br>
+      <a class="nav-disactive" href="../login.html" id="nav-3">Login</a>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div class="jual-content">
+    <div class="jual-content-step center">
+      <div class="step">
+        <div class="active active1"></div>
+        <div class="disable disable2"></div>
+        <div class="disable disable3"></div>
+        <div class="disable disable4"></div>
+      </div>
+      <img src="./../../assets/img/jual/step1.png">
+      <h1 class="title uppercase center">Tentukan Lokasimu</h1>
+      <p class="content center">
+        Tentukan alamat-mu untuk membantu kami menemukan keberadaanmu lebih cepat
+      </p>
+    </div>
+    <div class="jual-content-form center">
+      <div class="alert">
+        <img src="../../assets/img/general/icon/info.png">
+        <p>
+          Masukkan destinasi tempat pengambilan sampah selengkap mungkin untuk mempermudah petugas kami dalam menemukan
+          lokasi anda.
+        </p>
+      </div>
+      <div class="form">
+        <!-- Kelurahan -->
+        <label class="content">Kelurahan</label>
+        <select class="select-jual">
+          <option selected disabled value="">Pilih Kelurahan</option>
+          <option value="">Cilincing</option>
+          <option value="">Kalibaru</option>
+          <option value="">Marunda</option>
+          <option value="">Rorotan</option>
+          <option value="">Semper Barat</option>
+          <option value="">Semper Timur</option>
+          <option value="">Sukapura</option>
+        </select>
+        <!-- Kecamatan -->
+        <label class="content">Kecamatan</label>
+        <select>
+          <option selected disabled value="">Pilih Kecamatan</option>
+          <option value="">Cilincing</option>
+          <option value="">Kelapa Gading</option>
+          <option value="">Koja</option>
+          <option value="">Pademangan</option>
+          <option value="">Penjaringan</option>
+          <option value="">Tanjung Priok</option>
+        </select>
+        <!-- Alamat -->
+        <label class="content">Alamat Lengkap</label>
+        <textarea cols="30" rows="10"></textarea>
+        <!-- Service Time -->
+        <label class="content">Pilih Waktu Layanan</label>
+        <input class="date" type="date">
+        <form action="step2.html">
+          <input class="form-btn uppercase center" type="submit" value="Selanjutnya" />
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+    $(document).ready(function () {
+    $('#nav-btn').click(function () {
+      $('.nav-link').slideToggle(
+      );
+    });
+  });
+  </script>
+</html>

@@ -1,0 +1,534 @@
+/* Responsive */
+
+@media screen and (max-width: 1264px) {
+  .score-sheet .agent {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  /* General */
+  .btn {
+    padding: 0.8em 13%;
+  }
+  /* Navbar */
+  nav img {
+    margin-left: 4em;
+  }
+  /* Header */
+  .home-about-movie {
+    padding-top: 1.5em;
+  }
+  .home-header-text {
+    padding: 8em 0 0 5em;
+  }
+  /* Content */
+  /* Service */
+  .service {
+    width: 9em;
+    height: 9em;
+  }
+  /* Blog */
+  .blog {
+    margin: 0.2em;
+}
+  /* Jual */
+  .jual-content {
+    padding: 0 1% 4em;
+  }
+  .step .active, .step .disable {
+    width: 3em;
+    height: 3em;
+  }
+  .step div {
+    background-size: 1em;
+  }
+  .jual-content-form .alert {
+    padding: 1em;
+  }
+  .jual-content-form .alert p {
+    padding: 0 2%;
+  }
+  .jual-content-step h1 {
+    font-size: 1.5rem;
+  }
+  .jual-content-step p {
+    font-size: 1.1rem;
+  }
+  .form label {
+    font-size: 1.1rem;
+  }
+  /* Login */
+  .login-form img {
+    margin: 4em 5% 0 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* Content */
+  /* About */
+  .home-about {
+    padding-top: 0;
+  }
+  .home-about-movie {
+    padding-top: 2em;
+  }
+  .home-about-movie img {
+    width: 100%;
+    margin: 0;
+  }
+  .home-about-movie video {
+    position: absolute;
+    z-index: 1;
+    width: 44%;
+    margin: 2% 0 0 8.5%;
+  }
+  .home-about-text {
+    padding: 0 10% 0 0;
+  }
+  /* Service */
+  .service {
+    width: 8em;
+    height: 8em;
+  }
+  /* Blog */
+  .home-blog {
+    padding: 4em 3% 0;
+}
+.blog .blog-content {
+  padding: 1em 0.5em;
+}
+  /* Jual */
+  .jual-content-step p {
+    font-size: 1rem;
+  }
+  .form label {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* General */
+  .btn {
+    padding: 0.8em 10%;
+  }
+  /* Navbar */
+  nav a {
+    font-size: 0.8rem;
+  }
+  /* Header */
+  .home-header-text {
+    padding: 9em 0 0 5em;
+  }
+  .home-header-text h1 {
+    font-size: 3rem;
+  }
+  .home-header-text p {
+    font-size: 1.8rem;
+  }
+  /* Content */
+  /* About */
+  .home-about-text h1 {
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 1.1rem;
+    line-height: normal;
+    color: #8795a1;
+  }
+  /* Service */
+  .home-service h1 {
+    font-size: 1.5rem;
+  }
+  .home-service-content label {
+    font-size: 1.1rem;
+  }
+  /* Blog */
+  .home-blog {
+    padding: 4em 8% 0;
+  }
+  .home-blog-content {
+    grid-template-columns: 50% 50%;
+  }
+
+  .blog  {
+    margin: 0.5em;
+  }
+  /* Jual */
+  .step .active, .step .disable {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  .jual-content-form .alert p {
+    padding: 0 0 0 .5em;
+  }
+  /* Login */
+  .login-form {
+    padding: 6em 3%;
+  }
+  .login-form img {
+    margin: 6em 5% 0 0;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  /* Navbar */
+  .nav-link {
+    display: inline !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* General */
+  body {
+    background: url("../img/general/background-res.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .grid-2 {
+    display: block;
+  }
+  .content {
+    font-size: 1.2rem;
+  }
+  /* Navbar */
+  #nav-btn {
+    display: block;
+    font-size: 1.5rem !important;
+    margin-left: auto;
+    margin-right: 10%;
+    cursor: pointer;
+  }
+  .nav-link {
+    display: none;
+    position: absolute;
+    margin-top: 8.5em;
+    padding: 1em 1.5em;
+    width: 100%;
+    left: 0;
+    background: #fff
+  }
+  #nav-1, #nav-2, #nav-3, #nav-4 {
+    color: #000 !important;
+  }
+  nav a {
+    display: block;
+  }
+  nav br {
+    display: block;
+  }
+  nav img {
+    margin-left: 2em;
+  }
+  /* Header */
+  .home-header {
+    background: url("../img/home/header-res.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: contain;
+  }
+  .home-header-text {
+    padding: 65% 5% 0;
+  }
+  .home-header-text h1, .home-header-text p {
+    text-align: center;
+  }
+  .home-header-text div {
+    text-align: center;
+  }
+  /* Content */
+  /* About */
+  .home-about {
+    display: block;
+  }
+  .home-about-movie {
+    padding-top: 4em;
+  }
+  .home-about-movie img {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .home-about-movie video {
+    width: 65.5%;
+    margin: 3% 0 0 18%;
+  }
+  .home-about-text {
+    text-align: center;
+    padding: 0 5%;
+  }
+  .home-about-text h1, .home-about-text p, .home-about-text .btn-content {
+    text-align: center;
+  }
+  .home-about-text h1 {
+    text-align: center;
+  }
+  .home-about-text span {
+    float: unset;
+  }
+  /* Service */
+  .home-service-content {
+    padding: 1.5em 3% 0;
+  }
+  .home-service-content label {
+    font-size: 1rem;
+  }
+  .service {
+    width: 7.3em;
+    height: 7.3em;
+  }
+  /* Map */
+  .home-map p {
+    margin: 0.7em 5% 3.5em;
+  }
+  /* Blog */
+  .home-blog p {
+    margin: 0.7em 5% 0;
+  }
+  .home-blog .grid-2 {
+    display: grid;
+  }
+  /* Jual */
+  .jual-content {
+    display: block;
+    padding: 0;
+  }
+  .step .active, .step .disable {
+    width: 5em;
+    height: 5em;
+    margin-left: 25%;
+  }
+  .step div {
+    background-size: 1.5em;
+  }
+  .jual-content-step img {
+    width: 75%;
+    margin-top: 1em;
+  }
+  .jual-content-step p {
+    font-size: 1.1rem;
+  }
+  .jual-content-step, .jual-content-form {
+    padding: 5%;
+  }
+  .jual-content-form .alert p {
+    padding: 0 1em;
+    font-size: 1.1rem;
+  }
+  .jual-content-form .alert img {
+    width: 80%;
+    margin: 0 10%;
+  }
+  /* Artikel */
+  .blog-header {
+    background: url("../img/artikel/background-medium.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 655px;
+  }
+  .blog-text {
+    padding: 6em 4em;
+  }
+  .blog-text br {
+    display: none;
+  }
+  .blog-text h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  /* Login */
+  .login-form {
+    display: block;
+    padding: 0 7% 4em;
+  }
+  .login-form img {
+    width: 100%;
+    margin: 6em 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* General */
+  .grid-5 {
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+  .line {
+    width: 20%;
+  }
+  /* Content */
+  /* Service */
+  .home-service-content {
+    padding: 1.5em 5% 0;
+  }
+  .service {
+    width: 8em;
+    height: 8em;
+  }
+  /* Map */
+  .map-view {
+    height: 28em;
+  }
+  /* Blog */
+  .home-blog {
+    padding: 4em 5% 0;
+  }
+  /* Footer */
+  .footer {
+    display: block;
+  }
+  .footer-link {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Header */
+  .home-header-text h1 {
+    font-size: 2.5rem;
+  }
+  .home-header-text p {
+    font-size: 1.5rem;
+  }
+  /* Contetn */
+  /* Map */
+  .card-legend {
+    width: 54%;
+    margin: -3em 23% 0 23%;
+  }
+  /* Blog */
+}
+
+@media screen and (max-width: 600px) {
+  /* Content */
+  /* Map */
+  .card-legend {
+    width: 60%;
+    margin: -3em 20% 0 19%;
+  }
+  /* Blog */
+  .home-blog .grid-2 {
+    display: block;
+    display: block;
+    padding: 1em 5%;
+  }
+  .blog {
+    margin: 0.2em;
+}
+  /* Jual */
+  .step .active, .step .disable {
+    width: 4em;
+    height: 4em;
+  }
+  /* Artikel */
+  .blog-text {
+    padding: 9em 0;
+  }
+  .blog-text h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* General */
+  .grid-5 {
+    display: block;
+  }
+  .content {
+    font-size: 1.1rem;
+  }
+  #body-home {
+    background: none;
+  }
+  /* Navbar */
+  nav {
+    padding: 1em;
+  }
+  nav img {
+    margin-left: 0.5em;
+  }
+  /* Header */
+  .home-header-text h1 {
+    font-size: 2rem;
+  }
+  /* Content */
+  /* About */
+  .home-about-movie img {
+    width: 100%;
+    margin: 0;
+  }
+  .home-about-movie video {
+    width: 72.5%;
+    margin: 3.5% 0 0 14.5%;
+  }
+  /* Service */
+  .home-service-content label {
+    margin-bottom: 1.5em;
+  }
+  .service {
+    width: 9em;
+    height: 9em;
+  }
+  /* Map */
+  .card-legend {
+    width: 80%;
+    margin: -3em 10% 0 7%;
+  }
+  /* Blog */
+  .home-blog-content {
+    display: block;
+  }
+  .blog {
+    margin: 1em 0;
+  }
+  /* Jual */
+  .step .active, .step .disable {
+    width: 3em;
+    height: 3em;
+    margin-left: 15%;
+  }
+  .step div {
+    background-size: 1em;
+  }
+  .jual-content-step p {
+    font-size: 1rem;
+  }
+  .jual-content-form .alert p {
+    padding: 0 1em;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* General */
+  p {
+    text-align: justify;
+  }
+  /* Header */
+  .home-header-text p {
+    text-align: center !important;
+  }
+  /* Content */
+  /* Map */
+  .card-legend {
+    width: 88%;
+    margin: -3em 5% 0 2%;
+  }
+  .card-legend-text p {
+    text-align: center;
+  }
+  /* Blog */
+  .home-blog .grid-2 {
+    padding: 1em 0;
+  }
+  /* Artikel */
+  .blog-header {
+    height: 570px;
+  }
+  .blog-text {
+    padding: 7em 0;
+  }
+  .blog-text h1 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GoTrash | Media Peduli Sampah</title>
+  <link rel="shortcut icon" href="../../assets/img/general/icon.png" type="image/x-icon">
+  <!-- css -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/jual.css">
+  <link rel="stylesheet" href="../../assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- js -->
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script src=".././assets/js/script.js"></script>
+</head>
+
+<body id="body-jual">
+  <!-- Navbar -->
+  <nav id="nav">
+    <img src="../../assets/img/general/logo.png">
+    <i id="nav-btn" class="fa fa-bars"></i>
+    <div class="nav-link">
+      <a class="nav-disactive" href="../index.html" id="nav-1">Beranda</a>
+      <br>
+      <a class="active">Jual Sampah</a>
+      <br>
+      <a class="nav-disactive" href="../artikel.html" id="nav-2">Artikel</a>
+      <br>
+      <a class="nav-disactive" href="../login.html" id="nav-3">Login</a>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div class="jual-content">
+    <div class="jual-content-step center">
+      <div class="step">
+        <div class="disable disable1"></div>
+        <div class="disable disable2"></div>
+        <div class="active active3"></div>
+        <div class="disable disable4"></div>
+      </div>
+      <img src="./../../assets/img/jual/step3.png">
+    </div>
+    <div class="jual-content-form center">
+      <div class="alert">
+        <img src="../../assets/img/general/icon/info.png">
+        <p>
+          Saat ini , petugas kami sedang berada dalam perjalan. Jika proses jual sampah telah selesai , silahkan pilih
+          tombol selanjutnya untuk melakukan tahap selanjutnya.
+        </p>
+      </div>
+      <div class="location">
+        <h1 class="uppercase">Lokasi Agen</h1>
+        <img src="../../assets/img/jual/agent-location.png">
+        <p class="content">
+          Petugas Kami <b>John Doe</b> sedang berada dalam perjalan. Mohon tunggu untuk beberapa waktu.
+        </p>
+      </div>
+      <div class="jual-button">
+        <a class="btn uppercase" href="step4.html">Selanjutnya</a>
+        <a class="btn uppercase" href="step2.html">Kembali</a>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  $(document).ready(function () {
+    $('#nav-btn').click(function () {
+      $('.nav-link').slideToggle(
+      );
+    });
+  });
+</script>
+
+</html>

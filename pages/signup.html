@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GoTrash | Media Peduli Sampah</title>
+  <link rel="shortcut icon" href="../assets/img/general/icon.png" type="image/x-icon">
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/jual.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- js -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/script.js"></script>
+</head>
+
+<body id="body-artikel">
+  <!-- Navbar -->
+  <nav id="nav">
+    <img src="../assets/img/general/logo.png">
+    <i id="nav-btn" class="fa fa-bars"></i>
+    <div class="nav-link">
+      <a class="nav-disactive" href="index.html" id="nav-1">Beranda</a>
+      <br>
+      <a class="nav-disactive" href="jual/step1.html" id="nav-2">Jual Sampah</a>
+      <br>
+      <a class="nav-disactive" href="artikel.html" id="nav-3">Artikel</a>
+      <br>
+      <a class="active">Login</a>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div class="login">
+    <div class="login-form">
+      <img src="../assets/img/general/backrgound-login.png">
+      <div class="form">
+        <h1 class="title uppercase center">Sign Up</h1>
+        <label class="content">Nama Lengkap</label>
+        <input type="text">
+        <label class="content">Username</label>
+        <input type="text">
+        <label class="content">Password</label>
+        <input type="password">
+        <form action="index.html">
+          <input class="btn form-btn-other uppercase" type="submit" value="Sign Up">
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  $(document).ready(function () {
+    $('#nav-btn').click(function () {
+      $('.nav-link').slideToggle(
+      );
+    });
+  });
+</script>
+
+</html>
